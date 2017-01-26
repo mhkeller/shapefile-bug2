@@ -1,0 +1,21 @@
+{
+  "name": "shapefile-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "shapefile": "^0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preshp": "rm us-states.shp.json",
+    "predbf": "rm us-states.dbf.json",
+    "shp": "shp2json us-states/us-states.shp -o us-states.shp.json",
+    "dbf": "dbf2json us-states/us-states.dbf -o us-states.dbf.json",
+    "start": "npm run shp && npm run dbf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

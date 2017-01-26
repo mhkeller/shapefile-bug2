@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Colorado",
+    "fid": "CO"
+  },
+  {
+    "name": "New Mexico",
+    "fid": "NM"
+  },
+  {
+    "name": "Utah",
+    "fid": "UT"
+  },
+  {
+    "name": "Wyoming",
+    "fid": "WY"
+  },
+  {
+    "name": null,
+    "fid": null
+  }
+]
